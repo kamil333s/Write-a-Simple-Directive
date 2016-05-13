@@ -1,0 +1,10 @@
+<section>
+
+    <ul>
+        <li ng-repeat="character in ctrl.characters">
+          {{character.rank}} {{character.name}}
+        </li>
+    </ul>
+    <char-editor-form characters="ctrl.characters">
+    </char-editor-form>
+</section>
